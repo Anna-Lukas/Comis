@@ -11,9 +11,37 @@
         <servlet-class>pl.altkom.HelloServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>Controller</servlet-name>
+        <servlet-class>pl.altkom.ControllerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Redirect</servlet-name>
+        <servlet-class>pl.altkom.RedirectServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Redirect</servlet-name>
+        <url-pattern>/Redirect</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>hello</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Controller</servlet-name>
+        <url-pattern>/Controller</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>Controller</welcome-file>
+    </welcome-file-list>
+
+    <context-param>
+        <param-name>adres_email_tworcy</param-name>
+        <param-value>turchan.anna@gmail.com</param-value>
+    </context-param>
 
 </web-app>
