@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <title>Dodaj użytkownika</title>
+</head>
+<body>
+<form action = "add_user" method="post">
+    Imię: <input type = "text" name="firstName"><br>
+    Nazwiko: <input type = "text" name="lastName"><br>
+    Wiek:
+    <select name = "age">
+        <option>19</option>
+        <option>29</option>
+        <option>39</option>
+        <option>49</option>
+        <option>59</option>
+        <option>69</option>
+        <option>79</option>
+        <option>89</option>
+    </select><br>
+    Region:
+    <select name = "region">
+        <option>małopolska</option>
+        <option>wielkopolska</option>
+    </select><br>
+
+      Płeć:<br>
+        <input type="radio" name = "sex" value="Male"> Meżczyzna<br>
+        <input type="radio" name = "sex" value="Male"> Kobieta<br>
+        <input type="submit" value="Utwórz użytkownika">
+
+</form>
+</body>
+</html>
