@@ -1,5 +1,7 @@
-package pl.altkom;
+package pl.altkom.dao;
 
+
+import pl.altkom.Client;
 
 import javax.sql.DataSource;
 import java.util.List;

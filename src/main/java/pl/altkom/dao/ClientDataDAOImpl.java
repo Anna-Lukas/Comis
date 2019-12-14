@@ -1,4 +1,6 @@
-package pl.altkom;
+package pl.altkom.dao;
+
+import pl.altkom.Client;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,22 +8,16 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.naming.Context;
-import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
 public class ClientDataDAOImpl implements ClientDataDAO {
 
-    public void saveClientData(Client cl, String dataSource) throws Exception {
-
-        InitialContext initCtx = new InitialContext();
-        Context context = (Context) initCtx.lookup("java:comp/env");
-        DataSource ds = (DataSource) context.lookup(dataSource);
+    public void saveClientData(Client cl, DataSource dataSource) throws Exception {
 
         Connection con = null;
 
         try {
-            con = ds.getConnection();
+            con = dataSource.getConnection();
 
             PreparedStatement pstmt = con.prepareStatement(
                     "INSERT INTO klient(id,imie,nazwisko,region,wiek,mezczyzna) values (?,?,?,?,?,?)");
@@ -36,6 +32,7 @@ public class ClientDataDAOImpl implements ClientDataDAO {
 
             pstmt.executeUpdate();
             pstmt.close();
+
         } finally {
             if (con != null) {
                 con.close();
@@ -44,13 +41,10 @@ public class ClientDataDAOImpl implements ClientDataDAO {
     }
 
     private int generateId() {
+
         return ((int) (System.currentTimeMillis() % 100000)) + 100000;
     }
 
-    @Override
-    public void saveClientData(Client client, DataSource dataSource) throws Exception {
-
-    }
 
     public List readClientsData(DataSource dataSource) throws Exception {
 

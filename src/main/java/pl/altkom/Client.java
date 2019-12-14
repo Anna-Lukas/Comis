@@ -7,6 +7,10 @@ public class Client   {
     private String lastName;
     private int age;
     private String region;
+    private String sex;
+
+    public Client(){
+    }
 
     public String getFirstName() {
         return firstName;
@@ -48,6 +52,5 @@ public class Client   {
         this.sex = sex;
     }
 
-    private String sex;
 
 }

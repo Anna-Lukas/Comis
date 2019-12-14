@@ -11,4 +11,5 @@
               maxWait="10000"
               driverClassName="org.sqlite.JDBC"
               url="jdbc:sqlite:komis.sqlite" />
+
 </Context>
