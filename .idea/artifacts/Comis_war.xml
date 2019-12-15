@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Comis:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Comis</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Comis.war">
+      <element id="artifact" artifact-name="Comis:war exploded" />
+    </root>
+  </artifact>
+</component>

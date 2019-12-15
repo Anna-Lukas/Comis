@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36b470e2-da3c-48e7-a76a-dba337093584" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/CarBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/SaveCarInfoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/dao/CarInfoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/dao/CarInfoDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/carInfoForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/checkInfoForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user_list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1V1e5Zq6kZWuVvXiV1Y7Vh5nbtc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36b470e2-da3c-48e7-a76a-dba337093584" name="Default Changelist" comment="" />
+      <created>1576424845952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576424845952</updated>
+      <workItem from="1576424855052" duration="3649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1620" height="272" key="GridCell.Tab.0.bottom" timestamp="1576428390468">
+      <screen x="-1680" y="23" width="1680" height="1020" />
+    </state>
+    <state width="1620" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.23.1680.1020@-1680.23.1680.1020" timestamp="1576428390468" />
+    <state width="1620" height="272" key="GridCell.Tab.0.center" timestamp="1576428390468">
+      <screen x="-1680" y="23" width="1680" height="1020" />
+    </state>
+    <state width="1620" height="272" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.23.1680.1020@-1680.23.1680.1020" timestamp="1576428390468" />
+    <state width="1620" height="272" key="GridCell.Tab.0.left" timestamp="1576428390468">
+      <screen x="-1680" y="23" width="1680" height="1020" />
+    </state>
+    <state width="1620" height="272" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.23.1680.1020@-1680.23.1680.1020" timestamp="1576428390468" />
+    <state width="1620" height="272" key="GridCell.Tab.0.right" timestamp="1576428390468">
+      <screen x="-1680" y="23" width="1680" height="1020" />
+    </state>
+    <state width="1620" height="272" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.23.1680.1020@-1680.23.1680.1020" timestamp="1576428390468" />
+    <state x="-1184" y="247" width="672" height="677" key="run.anything.popup" timestamp="1576424975660">
+      <screen x="-1680" y="23" width="1680" height="1020" />
+    </state>
+    <state x="-1184" y="247" width="672" height="677" key="run.anything.popup/0.0.1920.1050/-1680.23.1680.1020@-1680.23.1680.1020" timestamp="1576424975660" />
+  </component>
+</project>
