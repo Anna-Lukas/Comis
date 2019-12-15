@@ -2,14 +2,24 @@ package pl.altkom;
 
 
 
-public class Client   {
+public class Client {
+    private int Id;
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        Id = id;
+    }
+
     private String firstName;
     private String lastName;
     private int age;
     private String region;
     private String sex;
 
-    public Client(){
+    public Client() {
     }
 
     public String getFirstName() {

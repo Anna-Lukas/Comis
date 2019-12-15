@@ -1,3 +1,5 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,15 +13,12 @@
     Imię: <input type = "text" name="firstName"><br>
     Nazwiko: <input type = "text" name="lastName"><br>
     Wiek:
+
     <select name = "age">
-        <option>19</option>
-        <option>29</option>
-        <option>39</option>
-        <option>49</option>
-        <option>59</option>
-        <option>69</option>
-        <option>79</option>
-        <option>89</option>
+        <% for (int i=1; i<=100; i ++){%>
+        <option> <%= i%></option>
+        <%}%>
+
     </select><br>
     Region:
     <select name = "region">

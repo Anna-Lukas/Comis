@@ -7,8 +7,6 @@ import pl.altkom.dao.ClientDataDAOImpl;
 import javax.annotation.Resource;
 import javax.naming.NamingException;
 import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -18,29 +16,23 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
-@WebServlet(urlPatterns = "/read_users")
-public class ShowUsersServlet extends HttpServlet {
-    @Resource(name = "jdbc:Comis")
-    private DataSource ds;
+@WebServlet(urlPatterns = "/start_delete_client")
+public class BeginDeleteClient extends HttpServlet {
 
+    @Resource(name="jdbc:Comis")
+    private DataSource dataSource;
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        PrintWriter pw = resp.getWriter();
-
+    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
             ClientDataDAO dao = new ClientDataDAOImpl();
-            List clients = dao.readClientsData(ds);
+            List clients = dao.readClientsData(dataSource);
             req.setAttribute("clients", clients);
-            req.getRequestDispatcher("SchowUsers.jsp").forward(req,resp);
-
-
-        } catch (Exception e) {
-            throw new ServletException("Cannot delete user", e);
+            req.getRequestDispatcher("list_delete_clients.jsp").forward(req, resp);
         }
+        catch (Exception e){
+            throw new ServletException("Cannot read clients", e);
 
+        }
     }
-
-
 }
-
 

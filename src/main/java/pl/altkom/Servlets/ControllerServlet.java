@@ -31,7 +31,7 @@ public class ControllerServlet extends HttpServlet {
         }
         pw.println("!<H4>");
         pw.println("<a href=\"makeForm.html\">Marka</a><br><br>");
-        pw.println("<a href=\"userForm.html\">Dodaj użytkownika</a><br><br>");
+        pw.println("<a href=\"userForm.jsp\">Dodaj użytkownika</a><br><br>");
         pw.println("<h5>liczba aktywnych u żytkowników: "+ SessionCounter.getCounter());
         pw.println("/<h5><br><br>");
         Object counter = getServletContext().getAttribute("savedClientsCounter");

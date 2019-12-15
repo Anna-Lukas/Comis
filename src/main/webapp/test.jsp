@@ -12,7 +12,7 @@
 </head>
 <body>
 <%!int counter = 0;%>
-<%counter++%>
+<%counter++;%>
 
 <br><br>
 

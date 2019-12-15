@@ -37,18 +37,19 @@ public class SaveClientDataServlet extends HttpServlet {
 
         ClientDataDAO dao = new ClientDataDAOImpl();
         try {
-
             dao.saveClientData(client, ds);
             req.setAttribute("bla bla", client);
         } catch (Exception e) {
             e.printStackTrace();
+            throw new ServletException("Błąd", e);
         }
+
         PrintWriter out = resp.getWriter();
         out.println("<HTML><HEAD>");
         out.println("<TITLE>UserAdd</TITLE>");
         out.println("</HEAD><BODY>");
         out.println("<H3> Dodano użytkownika</H3>");
-        out.println("<a href=\"userForm.html\">Dodaj użytkownika</a>");
+        out.println("<a href=\"userForm.jsp\">Dodaj użytkownika</a>");
         out.println("</BODY></HTML>");
 
 

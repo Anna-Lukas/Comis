@@ -24,7 +24,7 @@
 }
 %>
 
-<% int n = 0;%> //Zmienna lokalna tworzona naczas pisania zapytania
+<% int n = 0;%> <%--//Zmienna lokalna tworzona naczas pisania zapytania--%>
 <%Object p = request.getParameter("n");%>
 <%if (p!= null) n =Integer.parseInt(p.toString());%>
 
