@@ -14,8 +14,8 @@ import java.io.IOException;
 
 @WebServlet(urlPatterns = "/delete_client")
 public class DeleteClient extends HttpServlet {
-    @Resource(name = "jdbc:Comis")
-    DataSource dataSource;
+    @Resource(name ="jdbc:Comis")
+    DataSource ds;
 
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
@@ -27,7 +27,7 @@ public class DeleteClient extends HttpServlet {
         lastName = splittedClient[1];
         ClientDataDAO dao = new ClientDataDAOImpl();
         try {
-            dao.removeClient(firstName, lastName, dataSource);
+            dao.removeClient(firstName, lastName, ds);
             req.getRequestDispatcher("read_users").forward(req, res);
         } catch (Exception e) {
             throw new ServletException("Cannot delete user", e);

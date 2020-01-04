@@ -20,7 +20,8 @@ import java.util.List;
 
 @WebServlet(urlPatterns = "/read_users")
 public class ShowUsersServlet extends HttpServlet {
-    @Resource(name = "jdbc:Comis")
+
+    @Resource(name ="jdbc:Comis")
     private DataSource ds;
 
     @Override
@@ -31,7 +32,7 @@ public class ShowUsersServlet extends HttpServlet {
             ClientDataDAO dao = new ClientDataDAOImpl();
             List clients = dao.readClientsData(ds);
             req.setAttribute("clients", clients);
-            req.getRequestDispatcher("SchowUsers.jsp").forward(req,resp);
+            req.getRequestDispatcher("ShowUsers.jsp").forward(req,resp);
 
 
         } catch (Exception e) {

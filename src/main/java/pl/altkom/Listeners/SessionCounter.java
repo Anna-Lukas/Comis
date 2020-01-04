@@ -9,6 +9,7 @@ public class SessionCounter implements HttpSessionListener {
     private static int counter = 0;
 
     public static int getCounter() {
+
         return counter;
     }
 

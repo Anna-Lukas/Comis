@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 @WebServlet(urlPatterns = "/process")
 public class RedirectServlet extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException  {
         ServletContext context = getServletContext();
         String make = req.getParameter("marka");
         System.out.printf(make);

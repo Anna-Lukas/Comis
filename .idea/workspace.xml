@@ -2,48 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72604504-fe2e-48cd-ade4-17c9002f1687" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/showCarList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Comis_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Comis_war_exploded.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/FindCarById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/filters/AuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/filters/SimpleFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tag_test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tlds/altkomLib.tld" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_8_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_28_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comis.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/komis.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/komis.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/SaveCarInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/SaveCarInfoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/altkom/Listeners/SessionCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/Listeners/SessionCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/BeginDeleteClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/BeginDeleteClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/ControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/DeleteClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/DeleteClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/RedirectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/RedirectServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/ShowUsersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/ShowUsersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/altkom/dao/CarInfoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/dao/CarInfoDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/altkom/dao/CarInfoDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/altkom/dao/CarInfoDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/carInfoForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/carInfoForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/checkInfoForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/checkInfoForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/altkom/Servlets/SaveCarInfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/altkom/Servlets/SaveCarInfoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/altkom/Listeners/SessionCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/altkom/Listeners/SessionCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/altkom/Servlets/BeginDeleteClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/altkom/Servlets/BeginDeleteClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/altkom/Servlets/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/altkom/Servlets/ControllerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/altkom/Servlets/RedirectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/altkom/Servlets/RedirectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/altkom/Servlets/ShowUsersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/altkom/Servlets/ShowUsersServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/altkom/dao/CarInfoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/altkom/dao/CarInfoDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/altkom/dao/CarInfoDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/altkom/dao/CarInfoDAOImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-12-15" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/carInfoForm_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/carInfoForm_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/carInfoForm_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/carInfoForm_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/checkInfoForm_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/checkInfoForm_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/checkInfoForm_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/checkInfoForm_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/index_jsp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/userForm_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/userForm_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/userForm_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/userForm_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/user_005flist_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/user_005flist_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/user_005flist_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Comis/org/apache/jsp/user_005flist_jsp.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,24 +60,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="komis" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="komis" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="komis" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="komis" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="pojazd: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -90,29 +67,34 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1Vw0ZDlsnQ6FdDNCj1TgytXDbm7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Comis [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
@@ -147,18 +129,20 @@
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3427616f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:komis" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -172,6 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578148903209</updated>
       <workItem from="1578148904539" duration="3316000" />
+      <workItem from="1578163917802" duration="5524000" />
     </task>
     <servers />
   </component>
@@ -183,19 +168,51 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="186" key="#Project_Structure" timestamp="1578164017165">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="186" key="#Project_Structure/0.0.1920.1050/-1680.23.1680.1020@0.0.1920.1050" timestamp="1578164017165" />
+    <state x="-1248" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578173203177">
+      <screen x="-1680" y="23" width="1680" height="1020" />
+    </state>
+    <state x="-1248" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1680.23.1680.1020@-1680.23.1680.1020" timestamp="1578173203177" />
+    <state width="1637" height="285" key="GridCell.Tab.0.bottom" timestamp="1578173765696">
+      <screen x="-1680" y="23" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.23.1680.1020@-1680.23.1680.1020" timestamp="1578173765696" />
+    <state width="1637" height="285" key="GridCell.Tab.0.center" timestamp="1578173765696">
+      <screen x="-1680" y="23" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.23.1680.1020@-1680.23.1680.1020" timestamp="1578173765696" />
+    <state width="1637" height="285" key="GridCell.Tab.0.left" timestamp="1578173765696">
+      <screen x="-1680" y="23" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.23.1680.1020@-1680.23.1680.1020" timestamp="1578173765696" />
+    <state width="1637" height="285" key="GridCell.Tab.0.right" timestamp="1578173765696">
+      <screen x="-1680" y="23" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.23.1680.1020@-1680.23.1680.1020" timestamp="1578173765696" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1578173060712">
+      <screen x="-1680" y="23" width="1680" height="1020" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1050/-1680.23.1680.1020@-1680.23.1680.1020" timestamp="1578173060712" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/altkom/dao/CarInfoDAOImpl.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/pl/altkom/Servlets/SaveClientDataServlet.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

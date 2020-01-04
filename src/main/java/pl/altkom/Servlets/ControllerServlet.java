@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
+
 @WebServlet(urlPatterns = "/redirect")
 public class ControllerServlet extends HttpServlet {
     @Override
