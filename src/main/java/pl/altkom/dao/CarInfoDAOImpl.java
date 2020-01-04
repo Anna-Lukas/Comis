@@ -16,7 +16,7 @@ public class CarInfoDAOImpl implements CarInfoDAO {
             try {
                 conn = dataSource.getConnection();
 
-                PreparedStatement pstmt = conn.prepareStatement("INSERT INTO pojazd(id,marka,typ,rok,przebieg,pojemnisc) VALUES (?,?,?,?,?,?)");
+                PreparedStatement pstmt = conn.prepareStatement("INSERT INTO pojazd(id,marka,typ,rok,przebieg,pojemnosc) VALUES (?,?,?,?,?,?)");
 
                 pstmt.setInt(1, generateId());
                 pstmt.setString(2, car.getMake());

@@ -17,7 +17,7 @@
         <param-value>jdbc:Comis</param-value>
     </context-param>
 
-    <login-config>
+    <!--<login-config>
         <auth-method>BASIC</auth-method>
         <realm-name>Comis</realm-name>
     </login-config>
@@ -44,6 +44,6 @@
         <role-name>user</role-name>
     </security-role>
 
-
+-->
 
 </web-app>

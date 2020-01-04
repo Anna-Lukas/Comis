@@ -9,8 +9,5 @@
         <module name="Comis" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Comis" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

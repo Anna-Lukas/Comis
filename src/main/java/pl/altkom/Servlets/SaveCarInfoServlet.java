@@ -15,14 +15,15 @@ import java.io.IOException;
 
 @WebServlet("/add_car_info")
 public class SaveCarInfoServlet extends HttpServlet {
-    @Resource(name = "jdbc:komis")
+    @Resource(name = "jdbc:Comis")
     private DataSource dataSource;
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         // logika zapisywania auta
 
-        CarBean car = new CarBean();
+        CarBean car =(CarBean) req.getSession().getAttribute("samochód");
+                /*new CarBean(); -- wszytkie parametry zastępujemy javaBeans
         String make = req.getParameter("make");
         car.setMake(make);
 
@@ -36,10 +37,11 @@ public class SaveCarInfoServlet extends HttpServlet {
         car.setDistance(distance);
 
         String capacity = req.getParameter("capacity");
-        car.setCapacity(capacity);
+        car.setCapacity(capacity);*/
 
         CarInfoDAO dao = new CarInfoDAOImpl();
         dao.saveCarInfo(car, dataSource);
+        req.getSession().removeAttribute("samochód");
 
         req.getRequestDispatcher("redirect").forward(req, resp);
     }
